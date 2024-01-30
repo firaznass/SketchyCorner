@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SketchyCorner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><img src="images/logo.png" alt="logo"></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- chatgpt had ik gebruik om tekts te genereren en om te vragen hoe een tag ook al weer werkte, 
+    maar ik had geen code uit chatgpt gepakt -->
+
+    <main class="contact">
+        <h1>Get in touch</h1>
+
+        <div>
+            <p>Have questions, feedback, or just want to say hello? I'd love to hear from you! Use the form below to send me a message, and I'll get back to you as soon as possible. Your thoughts and inquiries are always welcome.</p>
+
+            <!-- voor de form had ik MDN gebruikt en het vandaar gehaald -->
+
+            <form action="#">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+                
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" required>
+                
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="5" required></textarea>
+                
+                <button>Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>All drawings are made and owned by Zhafira</p>
+        <p>ChatGPT</p>
+        <a href="https://www.resizepixel.com/nl/">ResizePixel</a>
+        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a>
+        <a href="https://cloudconvert.com/">CloudConvert</a>
+        <a href="https://www.w3schools.com/css/css3_fonts.asp">W3Schools</a>
+    </footer>
+</body>
+</html>

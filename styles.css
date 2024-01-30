@@ -1,0 +1,384 @@
+/* W3Schools gebruikt om custom font te gebruiken */
+@font-face {
+    font-family: "Livvic";
+    src: url("/fonts/Livvic-Regular.ttf");
+}
+
+p, a{
+    font-family: "Livvic";
+}
+
+h1, h2, h3, h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+}
+
+label, button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* navigation */
+nav img{
+    height: 200px;
+    width: 283px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    background-color: #fff8a2;
+    padding: 0.5em;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: #250b3b;
+}
+
+nav ul li a:hover{
+    background-color: #250b3b;
+    color: white;
+}
+
+nav{
+    background-color: #c2b8d9;
+    border-style: double;
+    border-width: 1em;
+    border-color: #250b3b;
+    margin-bottom: 3em;
+}
+
+/* footer */
+footer{
+    background-color: #250b3b;
+    color: white;
+    margin-top: 3em;
+    padding: 1em;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    margin: 0.5em;
+}
+
+/* homepage */
+.home section:nth-child(1) img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: 10em;
+    left: 2em;
+}
+
+.home section:nth-child(1) div{
+    display: flex;
+    max-height: 11em;
+}
+
+.home section:nth-child(1) div p{
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.home section:nth-child(1){
+    background-color: #fff8a2;
+    padding: 1.5em;
+    border-radius: 2em;
+    margin-bottom: 1.5em;
+}
+
+.home section:nth-child(1) h1{
+    background-color: white;
+    width: fit-content;
+    padding: 0.5em;
+    border-radius: 5em;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: #250b3b;
+    margin-top: 0;
+}
+
+/* section 2 */
+.home section:nth-child(2){
+    display: flex;
+}
+
+.home section:nth-child(2) div{
+    background-color: #c2b8d9;
+    margin: 1em;
+    border-radius: 2em;
+    padding: 1em;
+    text-align: center;
+    border-style: double;
+    border-width: 0.5em;
+    border-color: #250b3b;
+}
+
+.home section:nth-child(2) div p{
+    margin-bottom: 2em;
+}
+
+.home section:nth-child(2) div h2, .home section:nth-child(2) div h3{
+    margin: 0;
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 5em;
+    border-style: solid;
+    border-color: #250b3b;
+    border-width: 0.1em;
+}
+
+.home section:nth-child(2) div a{
+    background-color: #250b3b;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 5em;
+}
+
+.home section:nth-child(2) div a:hover{
+    background-color: white;
+    color: #250b3b;
+}
+
+/* gallery */
+.gallery section:nth-child(1){
+    padding-bottom: 1em;
+    border-radius: 1em;
+}
+
+.gallery section:nth-child(1) h1{
+    margin-top: 0;
+    background-color: #250b3b;
+    padding: 0.5em;
+    color: white;
+    border-radius: 0.5em;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    left: 20.6em;
+}
+
+.gallery section:nth-child(1) p{
+    background-color: #c2b8d9;
+    font-size: 1.4em;
+    width: 25em;
+    position: relative;
+    left: 18.5em;
+    padding: 1em;
+    border-style: solid;
+    border-color: #250b3b;
+    border-width: 0.2em;
+    border-radius: 2em;
+}
+
+/* section 2 */
+.gallery section:nth-child(2){
+    background-color: #fff8a2;
+    border-radius: 2em;
+    border-style: double;
+    border-color: #250b3b;
+    border-width: 1em;
+    margin-bottom: 2em;
+}
+
+.gallery section:nth-child(2) h2{
+    background-color: #250b3b;
+    color: white;
+    padding: 0.3em;
+    margin: 0;
+    text-align: center;
+}
+
+.gallery section:nth-child(2) img{
+    height: 401px;
+    width: 300px;
+    border-style: solid;
+    border-color: #250b3b;
+    border-width: 0.4em;
+    border-radius: 2em;
+}
+
+.gallery section:nth-child(2) .sketchbookblock{
+    height: 298px;
+    width: 300px;
+}
+
+.gallery section:nth-child(2) div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-bottom: 1.5em;
+    padding: 1em;
+}
+
+/* section 3 */
+.gallery section:nth-child(3){
+    background-color: #c2b8d9;
+    border-radius: 2em;
+    border-style: double;
+    border-color: #250b3b;
+    border-width: 1em;
+}
+
+.gallery section:nth-child(3) img{
+    height: 566px;
+    width: 400px;
+    border-style: solid;
+    border-color: #250b3b;
+    border-width: 0.4em;
+    border-radius: 2em;
+}
+
+.gallery section:nth-child(3) div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.5em;
+}
+
+.gallery section:nth-child(3) h3{
+    background-color: #250b3b;
+    color: white;
+    padding: 0.3em;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+/* about */
+.about section:nth-child(1) img{
+    height: 250px;
+    width: 250px;
+}
+
+.about section:nth-child(1){
+    background-color: #c2b8d9;
+    padding: 0.5em;
+    border-radius: 5em;
+    border-style: solid;
+    border-bottom-width: 1em;
+    border-right-width: 0.7em;
+    border-color: #250b3b;
+    margin-bottom: 3em;
+}
+
+.about section:nth-child(1) p{
+    font-size: 1.4em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.about section:nth-child(1) h1{
+    background-color: white;
+    width: fit-content;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #250b3b;
+    border-width: 0.1em;
+    border-radius: 5em;
+    margin-left: 0.6em;
+}
+
+/* section 2 */
+.about section:nth-child(2){
+    background-color: #c2b8d9;
+    border-style: solid;
+    border-right-width: 0.7em;
+    border-bottom-width: 1em;
+    border-left-width: 0.3em;
+    border-top-width: 0.3em;
+    border-color: #250b3b;
+    border-radius: 3em;
+}
+
+.about section:nth-child(2) h2, .about section:nth-child(2) h3, .about section:nth-child(2) h4{
+    background-color: #fff8a2;
+    padding: 0.4em;
+    border-radius: 5em;
+    width: fit-content;
+    margin-left: 0.5em;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    border-style: solid;
+    border-color: #d3c172;
+    border-right-width: 0.2em;
+    border-bottom-width: 0.3em;
+}
+
+.about section:nth-child(2) p{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* contact */
+.contact{
+    text-align: center;   
+}
+
+.contact h1{
+    background-color: #c2b8d9;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #250b3b;
+    border-width: 0.1em;
+    width: fit-content;
+    border-radius: 5em;
+    position: relative;
+    left: 43.5%;
+    margin-bottom: 0.3em;
+}
+
+.contact div{
+    background-color: #fff8a2;
+    padding: 1em;
+    width: 50%;
+    position: relative;
+    left: 24.5%;
+    border-radius: 2em;
+    border-style: solid;
+    border-width: 0.2em;
+}
+
+.contact div form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact div form input, .contact div form textarea{
+    margin-bottom: 1.5em;
+    padding: 1em;
+    border-radius: 5em;
+    border-style: solid;
+    border-color: #250b3b;
+    width: 40%;
+    position: relative;
+    left: 28%;
+}
+
+.contact div form textarea{
+    resize: vertical;
+    border-radius: 1em;
+}
+
+.contact div form button{
+    width: fit-content;
+    position: relative;
+    left: 46.5%;
+    background-color: #250b3b;
+    color: white;
+    padding: 0.8em;
+    border-radius: 2em;
+}
+
+.contact div form button:hover{
+    background-color: white;
+    color: #250b3b;
+    cursor: pointer;
+}
