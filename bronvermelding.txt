@@ -1,0 +1,20 @@
+Alle tekeningen plus de logo en persona heb ik zelf gemaakt.
+
+Bronnen die ik heb gebruikt zijn:
+Chatgpt: 
+Vragen over het gebruik van tags en het genereren van tekst, maar ik heb daarvan geen code eruit gehaald.
+
+ResizePixel https://www.resizepixel.com/nl/:
+Voor de size van images. Ik heb mijn images daarin gezet, maar heb de resized versie niet gedownload, omdat het anders wazig wordt. 
+Dus ik heb het eigenlijk gebruikt om te kijken wat de precieze px is voor de hoogte en breedte voor mijn images en dat dan in css verwerkt.
+
+MDN Web Docs https://developer.mozilla.org/en-US/:
+Voor de contactformulier. Ik heb de contactformulier van MDN gehaald.
+
+CloudConvert https://cloudconvert.com/:
+Om heic mijn heic images naar jpg te veranderen.
+
+W3Schools https://www.w3schools.com/css/css3_fonts.asp:
+Gebruikt om te kijken hoe ik custom fonts kan gebruiken.
+
+De rest van de html code en css heb ik zelf gedaan. 
